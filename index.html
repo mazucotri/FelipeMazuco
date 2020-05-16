@@ -2,20 +2,148 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Felipe Mazuco</title>
     <link rel="stylesheet" href="CSS/estilos.css">
+    <link href="https://fonts.googleapis.com/css2?family=Exo&family=Markazi+Text&family=Parisienne&family=Share+Tech+Mono&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/8f24f9a27d.js" crossorigin="anonymous"></script>
 </head>
 <body>
     <header>
         <nav class="menu">
           <ul>
-            <li><a href="#">About me</a></li>
-            <li><a href="#">Portfolio</a></li>
-            <li><a href="#">Contact</a></li>
+            <li><a href="#sobre">About</a></li>
+            <li><a href="#educacao">Education</a></li>
+            <li><a href="#experiencia">Experience</a></li>
+            <li><a href="#contato">Contact</a></li>
           </ul>
         </nav>
-        <h1 class="site-title">Felipe de Sousa Mazuco</h1>
-        <h2 class="site-subtitle">R&D Engineer</h2>
+        <div class="titulo">
+            <h1 class="site-title">MSc. Felipe Mazuco</h1>
+            <h2 class="site-subtitle">R&D Engineer</h2>
+        </div>
+        
     </header>
+    <section class="sobre container" id="sobre">
+        <h2>Sobre</h2>
+        <figure class="avatar">
+            <img class="figura" src="./img/eu.jpg" alt="Felipe Mazuco">
+            <figcaption>My fiancee and I</figcaption>
+        </figure>
+        <p>
+            I'm an engineer graduated at University of São Paulo (Brazil) in 2015. In the same year, I began my professional carrer in the automotive industry at <a href="http://www.br.mahle.com/pt/">MAHLE METAL LEVE</a> where I currently work as a Research and Development Engineer in the company Tech Center. Since my early years, I've always liked to solve problems and fix things. This and my passion for cars that ultimately led to my carrer choice.
+        </p>
+        <p>
+            My first professional achievement was <a href="https://noticias.portaldaindustria.com.br/noticias/institucional/iel-anuncia-vencedores-do-premio-inova-talentos-2016-/">a national prize</a> given by the Brazilian National Confederation of Industry for the scientific paper that I wrote during my internship. The paper was about the improvement of steel mechanical properties for engine components.  
+        </p>
+        <p>
+            I just concluded a Master degree in Engineering, with a thesis on hard coatings for highly loaded applications. Nowadays, I'm beginning my studies in computer programming focusing in Data Science and Artificial Inteligence. I'm currently living between Jundiai-SP (work), São Roque-SP (parents) and São Paulo (fiancee).
+        </p>
+              
+    </section>
+    <section class="educacao container" id="educacao">
+        <h2>Education</h2>
+        <div class="grid">
+            <figure>
+                <img src="./img/USP.png" alt="USP" class="img-educacao">
+                <figcaption>Graduation: Mechanical Engineering (2011-2015)</figcaption>
+            </figure>
+            <figure>
+                <img src="./img/USP.png" alt="USP" class="img-educacao">
+                <figcaption>Master Degree: Mechanical Engineering - Tribology (2018-2020)</figcaption>
+            </figure>
+        </div>
+    </section>
+    <section class="experiencias container" id="experiencia">
+            <h2>Experience</h2>
+            <div class="grid">
+                <div class="flip-card">
+                    <div class="card">
+                        <figure class="card-front">
+                            <img class="img-portfolio" src="./img/mahle.png" alt="Project Management">
+                            <figcaption>Research and Development Engineer (2015-2020)</figcaption>
+                        </figure>
+                        <div class="card-back">
+                            <p>- MAHLE METAL LEVE S.A.
+                            </p>
+                            <p>- Product technology</p>
+                            <p>- Development of engine components</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="flip-card">
+                    <div class="card">
+                        <figure class="card-front">
+                            <img class="img-portfolio" src="./img/motor.gif" alt="Project Management">
+                            <figcaption>Project Management - Automotive components</figcaption>
+                        </figure>
+                        <div class="card-back">
+                            <p>- Lidership of global projects</p>
+                            <p>- Focus in innovation</p>
+                            <p>- Patent related activities</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="flip-card">
+                    <div class="card">
+                        <figure class="card-front">
+                            <img class="img-portfolio" src="./img/material_science.gif" alt="Material Science">
+                            <figcaption>Material Science - PVD and Steel</figcaption>
+                        </figure>
+                        <div class="card-back">
+                            <p>- Physical Vapor Deposition and Thin Films (MSc.) </p>
+                            <p>- Emphasis in hard coatings</p>
+                            <p>- Responsible for internal steel standards</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="flip-card">
+                    <div class="card">
+                        <figure class="card-front">
+                            <img class="img-portfolio" src="./img/Data_Science.gif" alt="Data Science">
+                            <figcaption>Data Science</figcaption>
+                        </figure>
+                        <div class="card-back">
+                            <p>- Knowledge in python and R</p>
+                            <p>- Ongoing formation in Data Science Academy (Data Scientist)</p>
+                        </div>
+                    </div>    
+                </div>                
+                <div class="flip-card">
+                    <div class="card">
+                        <figure class="card-front">
+                            <img class="img-portfolio" src="./img/travel.gif" alt="Daily International Experience">
+                            <figcaption>Daily International Experience</figcaption>
+                        </figure>
+                        <div class="card-back">
+                            <p>- Everyday meetings and calls in english</p>
+                            <p>- Work travels for Europe, US and China</p>
+                        </div>
+                    </div>
+                </div>
+            </div>  
+    </section>
+    <section class="contato" id="contato">
+            <h2>Contato</h2>
+            <div class="grid icons">
+            <a target="_blank" href="https://github.com/mazucotri">
+                <i class="fab fa-github"></i>
+            </a>
+            <a target="_blank" href="https://www.instagram.com/mazucotri/">
+                <i class="fab fa-instagram-square"></i>
+            </a>
+            <a target="_blank" href="https://www.linkedin.com/in/felipemazuco/">
+                <i class="fab fa-linkedin"></i>
+            </a>
+            <a href="mailto:felipesmazuco@gmail.com">
+                <i class="fas fa-envelope-open-text"></i>
+            </a>
+            </div>
+    </section>
+    <section class="agradecimento">
+        <p>
+            Esse site foi construído durante a <a href="https://www.alura.com.br/imersao-css">Imersão CSS da Alura.</a>
+        </p>
+    </section>
 </body>
 </html>
