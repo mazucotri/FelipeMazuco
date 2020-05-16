@@ -133,7 +133,7 @@ a {
       max-width: 1200px;
     }
   }
-.agradecimento p,
+
 .sobre p{
     color:black;
     font-size: 0.9em;
@@ -281,7 +281,7 @@ a {
 }
 .agradecimento,
 .contato{
-    background: rgb(255, 176, 176);
+    background: rgb(197, 208, 221);
 }
 
 .contato h2{
@@ -304,4 +304,10 @@ a {
     text-decoration: none;
     box-shadow: none;
     text-shadow: 0px 0px 20px darkslateblue;
+}
+
+.agradecimento p{
+    text-align: center;
+    color:black;
+    font-size: 0.9em;
 }
